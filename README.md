@@ -1,4 +1,4 @@
-# Dumbass_Api
+# DumbassApi
 A collection of static methods located in the file 'Dumbass' that Computer Science 1 students can use to make their easy lives even easier!
 
 If you are having trouble using this API please contact me at: grayson.croom@gmail.com
