@@ -7,7 +7,6 @@ If you are having trouble using this API please contact me at: grayson.croom@gma
 
 Usage:
 ```
-import DumbassApi.Dumbass;
 public class tester {
 	public static void main(String[] args){
 		
