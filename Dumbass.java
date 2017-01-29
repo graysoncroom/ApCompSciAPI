@@ -12,8 +12,9 @@ public class Dumbass {
 	 * @param fileName
 	 * @param lineNumber
 	 * @return the text (the whole line) at 'lineNumber' in file 'fileName'
+	 *
 	 */
-	public static String readFile(String fileName, int lineNumber) { 
+	public static String readFileAt(String fileName, int lineNumber) { 
 		return (new FileReader(fileName)).readLine(lineNumber);
 	}
 
