@@ -6,11 +6,9 @@ A collection of static methods located in the file 'Dumbass' that Computer Scien
 Usage:
 <code>
 import DumbassApi.Dumbass;
-
 public class tester {
 	public static void main(String[] args){
-		System.out.println( Dumbass.readFileAt("fileName.txt", 6) ); // prints line 6 of file 'fileName.txt' to the console
-		
+		System.out.println( Dumbass.readFileAt("fileName.txt", 6) ); // prints line 6 of file 'fileName.txt' to the console	
 	}
 }
 </code>
