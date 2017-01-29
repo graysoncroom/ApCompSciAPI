@@ -18,6 +18,7 @@ public class tester {
 		System.out.println( line6 ); // the text from file 'fileName.txt' at line 6 is printed to the console
 		
 		
+		
 		// The following method returns a String of user input from the console
 		// Method Header: public String readStringFromConsole()
 		// Example usage for taking in user input as a string:
@@ -27,6 +28,7 @@ public class tester {
 		System.out.println( "Your name is: " + name ); // printing the user's name
 		
 		
+		
 		// The following method returns a int of user input from the console
 		// Method Header: public int readIntFromConsole()
 		// Example usage for taking in user input as an int:
@@ -34,6 +36,8 @@ public class tester {
 		System.out.println( "What is your age?" ); // asking the user a question
 		String age = Dumbass.readIntFromConsole(); // soring the user's age in an int called 'age'
 		System.out.println( "Your age is: " + age ); // printing the user's age
+		
+		
 		
 		// The following method returns a char of user input from the console
 		// Method Header: public char readCharFromConsole()
