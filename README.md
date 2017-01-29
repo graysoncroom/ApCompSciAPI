@@ -5,7 +5,7 @@ A collection of static methods located in the file 'Dumbass' that Computer Scien
 
 Usage:
 <p>
-import DumbassApi.Dumbass;<br>
+<tab>import DumbassApi.Dumbass;<br>
 public class tester {<br>
 	public static void main(String[] args){<br>
 		System.out.println( Dumbass.readFileAt("fileName.txt", 6) ); // prints line 6 of file 'fileName.txt' to the console  <br>
