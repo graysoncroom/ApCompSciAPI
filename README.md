@@ -14,8 +14,8 @@ public class tester {
 		// Method Header: public String readFileAt(String fileName, int lineNumber)
 		// Example usage for printing a line of text from a file to the console:
 		
-		String line6 = Dumbass.readFileAt( "fileName.txt", 6 ); // text at specified file line stored in String 'line6'
-		System.out.println( line6 ); // the text from file 'fileName.txt' at line 6 is printed to the console
+		String line6 = Dumbass.readFileAt( "fileName.txt", 6 );
+		System.out.println( line6 ); 
 		
 		
 		
