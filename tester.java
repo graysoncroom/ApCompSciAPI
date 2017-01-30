@@ -3,23 +3,23 @@ public class tester {
 		
 		System.out.println();
 		
-		System.out.println("testing Dumbass.printRightTriangle(\"top left\", 10, \'*\')");
+		System.out.println("[ Testing Dumbass.printRightTriangle(\"top left\", 10, \'*\') ]");
 		Dumbass.printRightTriangle("top left", 10, '*');
 		
 		System.out.println();
 		
-		System.out.println("testing Dumbass.printRightTriangle(\"bottom left\", 10, \'*\')");
+		System.out.println("[ Testing Dumbass.printRightTriangle(\"bottom left\", 10, \'*\') ]");
 		Dumbass.printRightTriangle("bottom left", 10, '*');
 		
 		System.out.println();
 		
-		System.out.println("testing Dumbass.stringToInt(\"45\")");
+		System.out.println("[ Testing Dumbass.stringToInt(\"45\") ]");
 		System.out.println( Dumbass.stringToInt("45") );
 		
 		System.out.println();
 		
-		System.out.println("testing Dumbass.readStringFromConsole()");
-		System.out.println( "\n" + Dumbass.readStringFromConsole() );
+		System.out.println("[ Testing Dumbass.readStringFromConsole() ]");
+		System.out.println( Dumbass.readStringFromConsole() );
 		
 		System.out.println();
 	}
