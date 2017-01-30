@@ -3,7 +3,7 @@ A collection of static methods located in the file 'Dumbass' that Computer Scien
 
 If you are having trouble using this API please contact me at: grayson.croom@gmail.com
 
-<h3>The Following Methods can be used by putting the Dumbass file and the lib folder in the directory you are coding in</h3>
+<h3>The Following Methods can be used by putting the 'Dumbass' file and the 'lib' folder in the directory your code is in.</h3>
 
 Usage:
 ```
