@@ -8,6 +8,6 @@ public class tester {
 		Dumbass.printRightTriangle("bottom left", 10, '*');
 		
 		System.out.println("testing Dumbass.stringToInt(\"45\") \n");
-		System.out.println( Dumbass.stringToInt("45") );
+		System.out.println( Dumbass.stringToInt("45") + "\n" );
 	}
 }
