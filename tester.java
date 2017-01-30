@@ -19,7 +19,7 @@ public class tester {
 		System.out.println();
 		
 		System.out.println("testing Dumbass.readStringFromConsole()");
-		System.out.println( Dumbass.readStringFromConsole() );
+		System.out.println( "\n" + Dumbass.readStringFromConsole() );
 		
 		System.out.println();
 	}
