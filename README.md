@@ -4,7 +4,10 @@ A collection of static methods located in the file 'Dumbass' that Computer Scien
 If you are having trouble using this API please contact me at: grayson.croom@gmail.com
 
 <h3>The Following Methods can be used by putting the 'Dumbass' file and the 'lib' folder in the directory your code is in.</h3>
-<bold>Do NOT forget the lib folder or the Dumbass.java file will not compile</bold>
+<strong>Do NOT forget the lib folder or the Dumbass.java file will not compile</strong>
+
+The tester class in this repository is going to be a place where I can test every function I create. You
+may not want it unless you would like to look at example methods and how they run.
 
 Example Usage:
 ```
