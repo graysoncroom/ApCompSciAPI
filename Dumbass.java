@@ -3,6 +3,12 @@ import lib.*;
 
 /**
  * @author Grayson Croom
+ * NOTE: If you are using it and liking it let me know
+ * 	 by sending me an email (grayson.croom@gmail.com) or
+ * 	 contact me if you would like to see a new feature added.
+ *
+ * 	 If people use it I will keep adding more methods to make
+ * 	 simple things even simpler for your tiny brain to handle.
  *
  */
 public class Dumbass {
@@ -23,8 +29,15 @@ public class Dumbass {
 	
 	@SuppressWarnings("resource")
 	public static int readIntFromConsole() {
-		return (new Scanner( System.in )).nextInt();}
-	
+		while(true) {
+			try {
+				return (new Scanner( System.in )).nextInt();
+			} catch(Exception e){
+				System.out.println("Please enter an integer");
+				
+			}
+		}
+	}
 	@SuppressWarnings("resource")
 	public static char readCharFromConsole() {
 		return ((new Scanner( System.in )).next()).charAt(0);}
@@ -69,18 +82,20 @@ public class Dumbass {
 		
 		if( x.equalsIgnoreCase("top left")) {
 			for(int i = 0; i < size; i++)
-				for(int j = 0; j < output[i].length - i; j++)
-					output[i][j] = symbol;
-
+				for(int j = 0; j < output[i].length - i; j++) output[i][j] = symbol;
 		} else if( x.equalsIgnoreCase("bottom left")) {	
 			for(int i = 0; i < size; i++)
-				for(int j = 0; j < i; j++)
-					output[i][j] = symbol;
-
+				for(int j = 0; j <= i; j++) output[i][j] = symbol;
 		} else if( x.equalsIgnoreCase("top right")) {
-
+			for(int i = 0; i < size; i++) {
+				for(int j = 0; j < i; j++) output[i][j] = ' ';
+				for(int j = size - 1; j >= i; j--) output[i][j] = symbol;
+			}
 		} else if( x.equalsIgnoreCase("bottom right")) {
-
+			for(int i = 0; i < size; i++){
+				for(int j = 0; j < size - i - 1; j++) output[i][j] = ' ';
+				for(int j = size - i - 1; j < size; j++) output[i][j] = '*';	
+			}
 		} else {
 			System.out.println("not a valid triangle parameter: " + rightAngleOrientation);
 			System.out.println("useage for 1st parameter: \"top left\", \"top right\", \"bottom left\", \"bottom right\"");	
@@ -106,10 +121,17 @@ public class Dumbass {
 
 	public static void printArray(int[] arr) {
 		for(int x : arr) System.out.println( x );}
-
+	
 	public static void printArray(char[] arr) {
 		for(char x : arr) System.out.println( x );}
-
+	
 	public static void printArray(double[] arr) {
 		for(double x : arr) System.out.println( x );}
+
+	// math operations
+	public static double roundUp(double x) {return Math.ceil(x);}
+	public static double roundDown(double x) {return Math.floor(x);}
+	public static double power(double num, int exponent) {return Math.pow(num, exponent);}
+	public static double power(int num, int exponent) {return Math.pow(num, exponent);}
+	public static double squareRoot(double num) {return Math.sqrt(num); }
 }
