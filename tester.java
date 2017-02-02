@@ -28,15 +28,15 @@ public class tester {
 		
 		System.out.println();
 		
-		System.out.println("[ Testing Dumbass.readStringFromConsole() ]");
-		System.out.println( Dumbass.readStringFromConsole() );
-		
-		System.out.println();
-
-		System.out.println("[ Testing Dumbass.readIntFromConsole() ]");
-		System.out.println( Dumbass.readIntFromConsole() );
-
-		System.out.println();
+//		System.out.println("[ Testing Dumbass.readStringFromConsole() ]");
+//		System.out.println( Dumbass.readStringFromConsole() );
+//		
+//		System.out.println();
+//
+//		System.out.println("[ Testing Dumbass.readIntFromConsole() ]");
+//		System.out.println( Dumbass.readIntFromConsole() );
+//
+//		System.out.println();
 
 		System.out.println("[ Testing Dumbass.power(2,3) ]");
 		System.out.println( Dumbass.power(2,3) );
@@ -56,6 +56,11 @@ public class tester {
 		System.out.println("[ Testing Dumbass.roundDown(5.33) ]");
 		System.out.println( Dumbass.roundDown(5.33) );
 
+		System.out.println();
+		
+		System.out.println("[ Testing Dumbass.linearSearch(new int[]{5, 87, 3, 34, 23, 2, 7}, 3) ]");
+		System.out.println( Dumbass.linearSearch(new int[]{5, 87, 3, 34, 23, 2, 7}, 3) );
+		
 		System.out.println();
 	}
 }

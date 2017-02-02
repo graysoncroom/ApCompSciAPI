@@ -111,7 +111,6 @@ public class Dumbass {
 		for(char[] row : output) {
 			for( char element : row )
 				System.out.print( element );
-			
 			System.out.println();
 		}
 	}
@@ -134,4 +133,21 @@ public class Dumbass {
 	public static double power(double num, int exponent) {return Math.pow(num, exponent);}
 	public static double power(int num, int exponent) {return Math.pow(num, exponent);}
 	public static double squareRoot(double num) {return Math.sqrt(num); }
+	
+	//search methods
+	public static int linearSearch(int arr[], int find) {
+		for(int i = 0; i < arr.length; i++)
+			if(arr[i] == find) return i;
+		
+		return -1;
+	}
+	
+	public static int linearSearch(String arr[], String find) {
+		for(int i = 0; i < arr.length; i++)
+			if(arr[i].equals(find)) return i;
+		
+		return -1;
+	}
+	
+	
 }
