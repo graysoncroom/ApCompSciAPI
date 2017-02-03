@@ -62,5 +62,38 @@ public class tester {
 		System.out.println( Dumbass.linearSearch(new int[]{5, 87, 3, 34, 23, 2, 7}, 3) );
 		
 		System.out.println();
+		
+		System.out.println("[ Testing Dumbass.selectionSort(new int[]{5, 54, 89, 8, 2, 32, 122, 12, 1, 7, 4, 987}) ]");
+		int array[] = new int[]{5, 54, 89, 8, 2, 32, 122, 12, 1, 7, 4, 987}; 
+		System.out.println("Before selection sort:");
+		Dumbass.printArray( array );
+		Dumbass.selectionSort( array );
+		System.out.println("After selection sort:");
+		Dumbass.printArray( array );
+		array = null;
+		
+		System.out.println();
+
+		System.out.println("[ Testing Dumbass.insertionSort(new int[]{5, 54, 89, 8, 2, 32, 122, 12, 1, 7, 4, 987}) ]");
+		array = new int[]{5, 54, 89, 8, 2, 32, 122, 12, 1, 7, 4, 987};
+		System.out.println("Before inserstion sort:");
+		Dumbass.printArray( array );
+		Dumbass.insertionSort( array );
+		System.out.println("After inserstion sort:");
+		Dumbass.printArray( array );
+		array = null;
+
+		System.out.println();
+
+		System.out.println("[ Testing Dumbass.mergeSort(new int[]{5, 54, 89, 8, 2, 32, 122, 12, 1, 7, 4, 987}) ]");
+		array =  new int[]{5, 54, 89, 8, 2, 32, 122, 12, 1, 7, 4, 987};
+		System.out.println("Before merge sort:");
+		Dumbass.printArray( array );
+		Dumbass.mergeSort( array );
+		System.out.println("After merge sort:");
+		Dumbass.printArray( array );
+		array = null;	
+
+		System.out.println();
 	}
 }

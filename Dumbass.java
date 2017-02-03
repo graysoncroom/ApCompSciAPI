@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 import lib.*;
 
 /**Dumbass is a collection of static methods that were born out of the frustration
@@ -147,5 +148,31 @@ public class Dumbass {
 		return -1;
 	}
 	
-	
+	//sort methods
+	// O(n^2)
+	public static void selectionSort(int arr[]) {
+		for( int i = 0; i < arr.length; i++ ) {
+			int min = i;
+			for( int j = i+1; j < arr.length; j++ )
+				if( arr[j] < arr[min] ) min = j;
+			int temp = arr[i];
+			arr[i] = arr[min];
+			arr[min] = temp;
+		}
+	}
+
+	public static void insertionSort(int arr[]) {
+		for( int i = 1; i < arr.length; i++ ) {
+			int j = i, index = arr[i];
+			while( j > 0 && arr[j-1] > index ) {
+				arr[j] = arr[j-1];
+				j--;
+			}
+			arr[j] = index;
+		}
+	}
+
+	// O(n log n)
+	public static void mergeSort(int arr[]) {Arrays.sort(arr);}
+
 }
