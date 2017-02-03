@@ -1,14 +1,12 @@
 import java.util.Scanner;
 import lib.*;
 
-/**
+/**Dumbass is a collection of static methods that were born out of the frustration
+ * sophomores have when learning java. A couple things in here are redundant wrappers
+ * for previously existent java methods, but in this library the intention of every method
+ * is made more clear to a novice.
  * @author Grayson Croom
- * NOTE: If you are using it and liking it let me know
- * 	 by sending me an email (grayson.croom@gmail.com) or
- * 	 contact me if you would like to see a new feature added.
- *
- * 	 If people use it I will keep adding more methods to make
- * 	 simple things even simpler for your tiny brain to handle.
+ * @version 0.1
  *
  */
 public class Dumbass {
